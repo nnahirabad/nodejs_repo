@@ -1,0 +1,24 @@
+{
+  "name": "hola-mundo",
+  "version": "1.0.0",
+  "description": "Este es mi primer proyecto JS con nodo",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon ./src/index.js"
+  },
+  "keywords": [
+    "holamundonode"
+  ],
+  "author": "Nahir abad",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.0",
+    "express-handlebars": "^7.1.2",
+    "morgan": "^1.10.0",
+    "mysql2": "^3.9.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
